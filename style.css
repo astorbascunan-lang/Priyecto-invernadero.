@@ -1,1 +1,16 @@
+p {
+background-color: rgba(62, 136, 72, 0.264);
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+
+
+
+
+footer {
+    text-align: center;
+    background-color: rgba(50, 144, 77, 0.937);
+    padding: 20px;
+    margin-top: 20px;
+    font-weight:bolder;
+}
