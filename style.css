@@ -3,9 +3,11 @@ background-color: rgba(62, 136, 72, 0.264);
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
-
-
+div, img {
+    background-color: rgba(168, 196, 85, 0.35);
+    padding: 10px;
+    border-radius: 30px;
+}
 
 footer {
     text-align: center;
