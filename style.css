@@ -73,7 +73,10 @@ a{
 
 .alineacion
 {
-
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    weight: 200px;
 }
 
 @media(max-width: 860px){
