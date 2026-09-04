@@ -69,8 +69,8 @@ a{
 
 footer {
     text-align: center;
-    background-color: rgba(50, 144, 77, 0.937);
+    background-color: rgba(58, 143, 15, 0.618);
     padding: 20px;
-    margin-top: 20px;
-    font-weight:bolder;
+    margin-top: 40px;
+    font-weight: bold;
 }
