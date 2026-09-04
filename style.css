@@ -74,7 +74,7 @@ a{
 .alineacion
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: left;
     height: 200px;
     weight: 200px;
 }
