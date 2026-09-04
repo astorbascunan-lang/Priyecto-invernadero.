@@ -14,7 +14,7 @@ div, img {
 section
 {
     display: flex;
-    justify-content: left;
+    justify-content: column;
     align-items: left;
 }
 
