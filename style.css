@@ -90,51 +90,65 @@ a{
 /*--------------------------------------------------------------*/
 
 /*Footer*/
-
-h2, h1 {
-  color:rgb(30, 85, 57)
+/* Títulos */
+h1, h2 {
+    color: rgb(30, 85, 57);
 }
 
+/* Footer */
 footer {
     text-align: center;
-    background-color: rgba(48, 117, 51, 0.618);
-    padding: 20px;
+    background-color: rgba(48, 117, 51, 0.15);
+    padding: 30px;
     margin-top: 40px;
     font-weight: bold;
-    
+    border-top: 3px solid rgb(30, 85, 57);
 }
 
-
-.contato {
+/* Sección de contacto */
+.contacto {
     text-align: center;
-    
 }
 
-
+/* Tarjetas */
 .datos-contacto {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-     display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 14px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1000px;
+    margin: 30px auto;
 }
 
-
+/* Cada tarjeta */
 .dato {
-    flex: 1;
-    background-color: rgba(225, 191, 255, 0.35);
+    background-color: rgba(225, 255, 225, 0.7);
     padding: 20px;
-    border-radius: 12px;
+    border-radius: 15px;
+    border: 2px solid rgba(30, 85, 57, 0.3);
+
+    /* Hace que todo dentro de la tarjeta se acomode */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-
-.dato a {
-
-    font-weight: bold;
+/* Imágenes */
+.dato img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-top: auto;
 }
 
-img {
-display:center;
-  border-radius: 20%;
+/* Texto */
+.dato p {
+    font-weight: normal;
+}
+
+/* Para pantallas chicas */
+@media (max-width: 700px) {
+    .datos-contacto {
+        grid-template-columns: 1fr;
+    }
 }
