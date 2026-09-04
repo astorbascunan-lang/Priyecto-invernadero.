@@ -71,6 +71,11 @@ a{
   text-decoration: none; /*Hace que los hipervínculos se muestren como textos normales*/
 }
 
+.alineacion
+{
+
+}
+
 @media(max-width: 860px){
     .header-menu{
         display: flex;
