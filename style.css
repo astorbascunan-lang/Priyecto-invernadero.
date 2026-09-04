@@ -11,6 +11,13 @@ div, img {
     border-radius: 30px;
 }
 
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
 
 
 /*-----------------------------------------------------------------*/
