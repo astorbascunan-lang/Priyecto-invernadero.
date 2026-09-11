@@ -11,10 +11,10 @@ div, img {
     border-radius: 30px;
 }
 
-section
+.alineacion
 {
     display: flex;
-    justify-content: column;
+    flex-diretion: column;
     align-items: left;
 }
 
