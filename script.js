@@ -24,7 +24,7 @@ function pedirEstado(){
 let temp=0;
 let hume=0;
 let estado;
-let apiT= pedirApi();
+let apiT= pedirApitemp();
 document.write("Temperatura: ", apiT);
 let apiH= pedirhumedad();
 document.write("Humedad: ", apiH);
