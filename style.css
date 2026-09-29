@@ -209,10 +209,10 @@ footer {
 
 /* Cada tarjeta */
 .dato {
-    background-color: rgba(225, 255, 225, 0.7);
+
     padding: 20px;
     border-radius: 15px;
-    border: 2px solid rgba(30, 85, 57, 0.3);
+    border: 2px solid rgb(85, 57, 30);
 
     /* Hace que todo dentro de la tarjeta se acomode */
     display: flex;
