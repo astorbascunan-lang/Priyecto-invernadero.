@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sensor</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="px.js"></script>
 </head>
 <body>
-<header>
+    <header>
   <div class="menucompu">
     <div id="esquina">
-      <a href="index.html"><img id="logo" src="img/logo.jpg" alt="Logo de Beatles Invaders"></a>
+      <img id="logo" src="imagenes/logo.jpg" alt="Logo de Beatles Invaders">
     </div>
   
     <div class="header-menu">
@@ -31,7 +32,7 @@
 
   <div class="header">
     <div id="esquina">
-      <a href="index.html"><img id="logo" src="img/logo.jpg" alt="Logo de Beatles Invaders"></a>
+      <img id="logo" src="imagenes/logo.jpg" alt="Logo de Beatles Invaders">
     </div>
 
       <input type="checkbox" id="side-menu" class="side-menu">
@@ -50,13 +51,27 @@
     </div>
 </header>
 <main>
+    <section class="ti">
+      <h2>Muestra:</h2>
+    </section>
     <section class="sensor">
         <div class="temp">
-            <p>🌡: </p>
-            <p>💧: </p>
-            <p>⚡: </p>
+          <span>🌡</span>
+          <p id="dato-temp"></p> 
         </div>
     </section>
+        <section class="sensor">
+        <div class="temp">
+          <p id="dato-hum"></p>
+          <p>💧</p>
+        </div>
+    </section>
+    <section class="sensor">
+        <div class="temp">
+          <p id="dato-luz"> ☀</p>
+        </div>
+    </section>
+            
 </main>
 
    <footer>
@@ -123,5 +138,7 @@
 
     <script scr="script.js"></script>
     <script src="menu.js"></script>
+</body>
+
 </body>
 </html>
