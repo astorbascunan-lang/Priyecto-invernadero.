@@ -1,133 +1,302 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La empresa</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Datos de la empresa</title>
 </head>
+
 <body>
-<header>
-  <div class="menucompu">
-    <div id="esquina">
-      <a href="index.html"><img id="logo" src="img/logo.jpg" alt="Logo de Beatles Invaders"></a>
-    </div>
-  
-    <div class="header-menu">
-      <a href="index.html"><div class="inline contraste">
-        <h2>INICIO</h2>
-      </div></a>
-      <a href="data.html"><div class="inline contraste">
-        <h2>EMPRESA</h2>
-      </div></a>
-      <a href="sensor.html"><div class="inline contraste">
-        <h2>SENSORES</h2>
-      </div></a>
-        <a href="nosotros.html"><div class="inline contraste">
-        <h2>NOSOTROS</h2>
-      </div></a>
-    </div>
-    </div>
 
-  <div class="header">
-    <div id="esquina">
-      <a href="index.html"><img id="logo" src="img/logo.jpg" alt="Logo de Beatles Invaders"></a>
-    </div>
+    <!-- ENCABEZADO -->
+    <header>
 
-      <input type="checkbox" id="side-menu" class="side-menu">
-      <label for="side-menu" class="hamb">
-        <span class="hamb-line"></span>
-      </label>
-      <h1 class="alineados">B.I</h1>
-      <nav class="nav">
-          <ul class="menu">
-              <li><a href="index.html" class="contraste alineados">INICIO</a></li>
-              <li><a href="data.html" class="contraste alineados">SOBRE LA EMPRESA</a></li>
-              <li><a href="sensor.html" class="contraste alineados">SENSORES</a></li>
-              <li><a href="nosotros.html" class="contraste alineados">SOBRE NOSOTROS</a></li>
-          </ul>
-      </nav>
-    </div>
-</header>
-<h1>Acerca de la empresa: </h1>
-    <div class="contenedor">
-  <img src="fotos/Captura de pantalla 2026-09-11 143350.png" alt="Imagen de la empresa" class="imagen" >
-  <p class="texto"> Somos un equipo especializado en el desarrollo y la implementación de soluciones tecnológicas orientadas al monitoreo y la optimización del trabajo en invernaderos. Nuestro objetivo es proporcionar herramientas que permitan a los productores conocer mejor las condiciones de sus cultivos, facilitando el seguimiento de los factores ambientales que influyen en su crecimiento y desarrollo.
+        <!-- Menú de computadora -->
+        <div class="menucompu">
 
-<br>Para lograrlo, ofrecemos la instalación de sensores de humedad, luminosidad y temperatura, diseñados para recopilar información sobre las condiciones del invernadero. Estos dispositivos permiten obtener datos relevantes del entorno y brindan al productor una visión más clara de lo que sucede dentro de su cultivo, ayudándolo a reconocer posibles cambios y a tomar decisiones con mayor fundamento.
-  </p>
-</div>
-<p>Nuestro servicio no se limita únicamente a la instalación de los sensores. También buscamos acompañar a cada productor mediante el asesoramiento basado en los datos recopilados, facilitando su interpretación y su utilización para mejorar el manejo del cultivo. De esta manera, la tecnología se convierte en una herramienta de apoyo para organizar el trabajo, aprovechar mejor los recursos disponibles y realizar un seguimiento más preciso de las condiciones ambientales.
+            <div id="esquina">
+                <img
+                    id="logo"
+                    src="imagenes/logo.jpg"
+                    alt="Logo de Beatles Invaders"
+                >
+            </div>
 
-<br>Además, consideramos fundamental la confiabilidad de la información proporcionada. Por eso, buscamos corroborar los datos obtenidos por nuestros sensores y mantener un seguimiento que permita ofrecer información útil y consistente para el productor. </p>
-<img src="fotos/Captura de pantalla 2026-09-11 143350.png" alt="Pajarao" width="700" height="400">
-<p> Nuestra propuesta está orientada a reducir las dificultades relacionadas con el control de las condiciones ambientales, disminuir la dependencia de las observaciones manuales y contribuir a una gestión más eficiente del invernadero. Al contar con información precisa y un asesoramiento adecuado, los productores pueden identificar oportunidades de mejora y tomar decisiones que favorezcan el desarrollo de sus cultivos.
+            <div class="header-menu">
 
-<br>En definitiva, no buscamos solamente facilitar el trabajo, sino también aportar comodidad, confianza y oportunidades de crecimiento. A través de la tecnología y el análisis de datos, queremos contribuir a mejorar la producción, optimizar el uso de los recursos y favorecer la rentabilidad de los invernaderos, ofreciendo un servicio que acompañe las necesidades de cada productor. </p>
+                <a href="index.html">
+                    <div class="inline contraste">
+                        <h2>INICIO</h2>
+                    </div>
+                </a>
 
+                <a href="data.html">
+                    <div class="inline contraste">
+                        <h2>EMPRESA</h2>
+                    </div>
+                </a>
 
-  
-   <footer>
+                <a href="sensor.html">
+                    <div class="inline contraste">
+                        <h2>SENSORES</h2>
+                    </div>
+                </a>
 
-    <h1>Beatles Invaders</h1>
+                <a href="nosotros.html">
+                    <div class="inline contraste">
+                        <h2>NOSOTROS</h2>
+                    </div>
+                </a>
 
-    <p>Redes sociales</p>
+            </div>
+        </div>
 
-    <section class="contacto">
+        <!-- Menú para celulares -->
+        <div class="header">
 
-        <h1>Contactate con nosotros</h1>
+            <div id="esquina">
+                <img
+                    id="logo"
+                    src="imagenes/logo.jpg"
+                    alt="Logo de Beatles Invaders"
+                >
+            </div>
 
-        <p>
-            Aquí encontrarás nuestros principales medios de comunicación,
-            redes sociales y ubicación.
-        </p>
+            <input
+                type="checkbox"
+                id="side-menu"
+                class="side-menu"
+            >
 
-        <div class="datos-contacto">
+            <label for="side-menu" class="hamb">
+                <span class="hamb-line"></span>
+            </label>
 
-            <article class="dato">
-                <h2>WhatsApp</h2>
+            <h1 class="alineados">B.I</h1>
 
-                <p>
-                    Puedes encontrarnos en:
-                </p>
+            <nav class="nav">
+                <ul class="menu">
 
-                <img src="/fotos/Captura de pantalla 2026-09-04 143538.png"
-                     alt="WhatsApp">
-            </article>
+                    <li>
+                        <a href="index.html" class="contraste alineados">
+                            INICIO
+                        </a>
+                    </li>
 
-            <article class="dato">
-                <h2>Facebook</h2>
+                    <li>
+                        <a href="data.html" class="contraste alineados">
+                            SOBRE LA EMPRESA
+                        </a>
+                    </li>
 
-                <p>
-                    También puedes seguirnos en nuestro perfil:
-                </p>
+                    <li>
+                        <a href="sensor.html" class="contraste alineados">
+                            SENSORES
+                        </a>
+                    </li>
 
-                <img src="/fotos/Captura de pantalla 2026-09-04 143538.png"
-                     alt="Facebook">
-            </article>
+                    <li>
+                        <a href="nosotros.html" class="contraste alineados">
+                            SOBRE NOSOTROS
+                        </a>
+                    </li>
 
-            <article class="dato">
-                <h2>Dirección</h2>
-
-                <p>
-                    jejelike
-                    <br>
-                    Batallas de aura
-                    <br>
-                    xixi
-                </p>
-
-                <img src="/fotos/Captura de pantalla 2026-09-04 143538.png"
-                     alt="Ubicación">
-            </article>
+                </ul>
+            </nav>
 
         </div>
 
-    </section>
+    </header>
 
-  <p>Trabajo realizado por: Pejeñuelos</p>
+    <!-- CONTENIDO PRINCIPAL -->
 
-</footer>
-    
+    <main>
+
+        <section class="contenido">
+
+            <h1>Acerca de la empresa:</h1>
+
+        </section>
+
+        <!-- Primera imagen y texto -->
+
+        <div class="contenedor">
+
+            <img
+                src="fotos/Captura de pantalla 2026-09-11 143350.png"
+                alt="Imagen de la empresa"
+                class="imagen"
+            >
+
+            <p class="texto">
+                Somos un equipo especializado en el desarrollo y la
+                implementación de soluciones tecnológicas orientadas
+                al monitoreo y la optimización del trabajo en
+                invernaderos. Nuestro objetivo es proporcionar
+                herramientas que permitan a los productores conocer
+                mejor las condiciones de sus cultivos, facilitando
+                el seguimiento de los factores ambientales que
+                influyen en su crecimiento y desarrollo.
+
+                <br><br>
+
+                Para lograrlo, ofrecemos la instalación de sensores
+                de humedad, luminosidad y temperatura, diseñados para
+                recopilar información sobre las condiciones del
+                invernadero. Estos dispositivos permiten obtener
+                datos relevantes del entorno y brindan al productor
+                una visión más clara de lo que sucede dentro de su
+                cultivo, ayudándolo a reconocer posibles cambios y
+                a tomar decisiones con mayor fundamento.
+            </p>
+
+        </div>
+
+        <!-- Segundo bloque de texto -->
+
+        <section class="contenido">
+
+            <p>
+                Nuestro servicio no se limita únicamente a la
+                instalación de los sensores. También buscamos
+                acompañar a cada productor mediante el asesoramiento
+                basado en los datos recopilados, facilitando su
+                interpretación y su utilización para mejorar el
+                manejo del cultivo. De esta manera, la tecnología
+                se convierte en una herramienta de apoyo para
+                organizar el trabajo, aprovechar mejor los recursos
+                disponibles y realizar un seguimiento más preciso
+                de las condiciones ambientales.
+
+                <br><br>
+
+                Además, consideramos fundamental la confiabilidad
+                de la información proporcionada. Por eso, buscamos
+                corroborar los datos obtenidos por nuestros sensores
+                y mantener un seguimiento que permita ofrecer
+                información útil y consistente para el productor.
+            </p>
+
+        </section>
+
+        <!-- Segunda imagen -->
+
+        <img
+            src="fotos/Captura de pantalla 2026-09-11 143350.png"
+            alt="Pájaro"
+            class="imagen-secundaria"
+        >
+
+        <!-- Último bloque de texto -->
+
+        <section class="contenido">
+
+            <p>
+                Nuestra propuesta está orientada a reducir las
+                dificultades relacionadas con el control de las
+                condiciones ambientales, disminuir la dependencia
+                de las observaciones manuales y contribuir a una
+                gestión más eficiente del invernadero. Al contar
+                con información precisa y un asesoramiento adecuado,
+                los productores pueden identificar oportunidades
+                de mejora y tomar decisiones que favorezcan el
+                desarrollo de sus cultivos.
+
+                <br><br>
+
+                En definitiva, no buscamos solamente facilitar
+                el trabajo, sino también aportar comodidad,
+                confianza y oportunidades de crecimiento. A través
+                de la tecnología y el análisis de datos, queremos
+                contribuir a mejorar la producción, optimizar el
+                uso de los recursos y favorecer la rentabilidad
+                de los invernaderos, ofreciendo un servicio que
+                acompañe las necesidades de cada productor.
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+
+    <footer>
+
+        <h1>Beatles Invaders</h1>
+
+        <p>Redes sociales</p>
+
+        <section class="contacto">
+
+            <h1>Contactate con nosotros</h1>
+
+            <p>
+                Aquí encontrarás nuestros principales medios de
+                comunicación, redes sociales y ubicación.
+            </p>
+
+            <div class="datos-contacto">
+
+                <article class="dato">
+
+                    <h2>WhatsApp</h2>
+
+                    <p>
+                        Puedes encontrarnos en:
+                    </p>
+
+                    <img
+                        src="/fotos/Captura de pantalla 2026-09-04 143538.png"
+                        alt="WhatsApp"
+                    >
+
+                </article>
+
+                <article class="dato">
+
+                    <h2>Facebook</h2>
+
+                    <p>
+                        También puedes seguirnos en nuestro perfil:
+                    </p>
+
+                    <img
+                        src="/fotos/Captura de pantalla 2026-09-04 143538.png"
+                        alt="Facebook"
+                    >
+
+                </article>
+
+                <article class="dato">
+
+                    <h2>Dirección</h2>
+
+                    <p>
+                        jejelike
+                        <br>
+                        Batallas de aura
+                        <br>
+                        xixi
+                    </p>
+
+                    <img
+                        src="/fotos/Captura de pantalla 2026-09-04 143538.png"
+                        alt="Ubicación"
+                    >
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <p>Trabajo realizado por: Pejeñuelos</p>
+
+    </footer>
+
 </body>
+
 </html>
