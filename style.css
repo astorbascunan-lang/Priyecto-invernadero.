@@ -141,6 +141,26 @@ header {
     justify-content: flex-start;
     align-items: flex-start;
 }
+/*Sensor*/
+.ti{
+  display: flex;
+  justify-content: center;
+}
+.sensor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.temp{
+    font-size: 50px;
+}
+.video{
+  margin: 20px;
+}
+.vi{
+  width: 20px;
+  height: auto;
+}
 
 /* -------------------------------------------------- */
 /* MENÚ RESPONSIVO */
