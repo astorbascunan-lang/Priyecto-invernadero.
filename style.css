@@ -25,10 +25,10 @@ p {
 }
 
 
-h1, h2 {
-    color: rgb(205, 166, 145);
-
+h1 {
+    color: rgb(79, 27, 0);
 }
+
 
 .alineacion {
     display: flex;
@@ -38,10 +38,17 @@ h1, h2 {
 
 .alineados {
     text-align: center;
+    color:#af946d;
 }
 
 a {
     text-decoration: none;
+}
+
+hr{
+  border: none;
+  height: 2.5px;
+  background-color: #af946d;
 }
 
 /* Contenedor de imagen y texto */
