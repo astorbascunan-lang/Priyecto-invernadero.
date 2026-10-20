@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="px.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
   <div class="menucompu">
     <div id="esquina">
-      <a href="index.html"><img id="logo" src="imagenes/logo.jpg" alt="Logo de Beatles Invaders"></a>
+      <img id="logo" src="imagenes/logo.jpg" alt="Logo de Beatles Invaders">
     </div>
   
     <div class="header-menu">
@@ -32,7 +32,7 @@
 
   <div class="header">
     <div id="esquina">
-      <a href="index.html"><img id="logo" src="imagenes/logo.jpg" alt="Logo de Beatles Invaders"></a>
+      <img id="logo" src="imagenes/logo.jpg" alt="Logo de Beatles Invaders">
     </div>
 
       <input type="checkbox" id="side-menu" class="side-menu">
@@ -52,70 +52,105 @@
 </header>
 <main>
     <section class="ti">
-      <h2>Muestra:</h2>
+      <h2 class="titulo2">Muestra</h2>
     </section>
     <section class="sensor">
-        <div class="temp">
-          <span>🌡</span>
-          <p id="dato-temp"></p> 
-        </div>
+      <table class="tabla-valores" style="width: 100%; max-width: 400px; margin: 0 auto; border-collapse: collapse;">
+            <tbody>
+                <tr>
+                    <td style="padding: 10px; font-size: 1.2rem;">🌡 Temperatura:</td>
+                    <td id="dato-temp" style="padding: 10px; font-size: 1.2rem; font-weight: bold;">Cargando...</td>
+                    <td>
+                      <img id="imagen-clima" src="" alt="Estado del clima" style="max-width: 60px; height: auto;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; font-size: 1.2rem;">💧 Humedad:</td>
+                    <td id="dato-hum" style="padding: 10px; font-size: 1.2rem; font-weight: bold;">Cargando...</td>
+                    <td>
+                      <img id="imagen-humedad" src="" alt="Estado del clima" style="max-width: 60px; height: auto;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; font-size: 1.2rem;">☀ Luminosidad:</td>
+                    <td id="dato-luz" style="padding: 10px; font-size: 1.2rem; font-weight: bold;">Cargando...</td>
+                    <td>
+                      <img id="imagen-luz" src="" alt="Estado del clima" style="max-width: 60px; height: auto;">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </section>
-        <section class="sensor">
-        <div class="temp">
-          <p id="dato-hum"></p>
-          <p>💧</p>
-        </div>
-    </section>
-    <section class="sensor">
-        <div class="temp">
-          <p id="dato-luz"> ☀</p>
-        </div>
-    </section>
-            
+    <section>
+      <div>
+        <h3>Sensores</h3>
+      </div>
+      <div>
+        
+      </div>
+    </section>        
 </main>
 
-     <footer>
+   <footer>
 
     <h1>Beatles Invaders</h1>
+
     <p>Redes sociales</p>
+
     <section class="contacto">
+
         <h1>Contactate con nosotros</h1>
+
         <p>
             Aquí encontrarás nuestros principales medios de comunicación,
             redes sociales y ubicación.
         </p>
+
         <div class="datos-contacto">
+
             <article class="dato">
                 <h2>WhatsApp</h2>
+
                 <p>
                     Puedes encontrarnos en:
                 </p>
-                <img src="fotos/wasap.webp"
+
+                <img src="/fotos/Captura de pantalla 2026-09-04 143538.png"
                      alt="WhatsApp">
             </article>
+
             <article class="dato">
                 <h2>Facebook</h2>
+
                 <p>
                     También puedes seguirnos en nuestro perfil:
                 </p>
-                <img src="fotos/Logo_de_Facebook.png"
+
+                <img src="/fotos/Captura de pantalla 2026-09-04 143538.png"
                      alt="Facebook">
             </article>
+
             <article class="dato">
                 <h2>Dirección</h2>
+
                 <p>
-                    Visitanos en
+                    jejelike
                     <br>
-                    Alburqueque, Nuevo Mexico
+                    Batallas de aura
                     <br>
-                    3828 de Piermont Drive
+                    xixi
                 </p>
-                <img src="fotos/Captura de pantalla 2026-10-20 150835.png"
+
+                <img src="/fotos/Captura de pantalla 2026-09-04 143538.png"
                      alt="Ubicación">
             </article>
+
         </div>
+
     </section>
+
   <p>Trabajo realizado por: Pejeñuelos</p>
+
 </footer>
 
     <script scr="script.js"></script>
@@ -123,4 +158,5 @@
 </body>
 
 </body>
+</html>
 </html>
