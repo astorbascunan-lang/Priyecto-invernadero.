@@ -18,8 +18,16 @@ p {
     overflow-wrap: break-word;
 }
 
+.foto-centro {
+    display: flex;
+    justify-content: center;
+
+}
+
+
 h1, h2 {
     color: rgb(205, 166, 145);
+
 }
 
 .alineacion {
@@ -140,26 +148,6 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-}
-/*Sensor*/
-.ti{
-  display: flex;
-  justify-content: center;
-}
-.sensor{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.temp{
-    font-size: 50px;
-}
-.video{
-  margin: 20px;
-}
-.vi{
-  width: 20px;
-  height: auto;
 }
 
 /* -------------------------------------------------- */
